@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IqD-HR-LQH">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Graficos2D-->
+        <scene sceneID="LPY-LY-WDn">
+            <objects>
+                <viewController id="6Ry-pk-6xD" customClass="Vista2Controller" customModule="appTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dub-wI-1kT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e5a-sq-5JK" customClass="Graficos2D" customModule="appTabBar" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="813"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="YXA-hd-wLd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Graficos2D" image="scribble.variable" catalog="system" id="nHq-Mt-rim"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Zx-az-Czh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1281.1594202898552" y="906.69642857142856"/>
+        </scene>
+        <!--Inicio-->
+        <scene sceneID="bk1-PP-eAK">
+            <objects>
+                <viewController id="nD4-1c-vxW" customClass="Vista1Controller" customModule="appTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fdx-A1-poM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Portafolio iOS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bny-Wk-rmI">
+                                <rect key="frame" x="155" y="198" width="116" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" red="0.18039215689999999" green="0.59215686270000001" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="y9a-4M-NZg">
+                                <rect key="frame" x="87" y="295" width="240" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Germán Guerrero Martínez" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2XS-IO-ouN">
+                                <rect key="frame" x="105" y="558" width="204" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Profesor: Ing. Martín Oswaldo Valdés Alvarado " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iR5-iQ-4Ip">
+                                <rect key="frame" x="38" y="662" width="356" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.18039215689999999" green="0.59215686270000001" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Rr7-V9-u9Q"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Inicio" image="pencil" catalog="system" id="4Wa-OE-AxN"/>
+                    <connections>
+                        <outlet property="ImageLogo" destination="y9a-4M-NZg" id="PuH-Pd-9RT"/>
+                        <outlet property="LabelNombre" destination="2XS-IO-ouN" id="4m8-m2-bpq"/>
+                        <outlet property="LabelProf" destination="iR5-iQ-4Ip" id="8Lc-Xr-Ufb"/>
+                        <outlet property="LabelTitulo" destination="bny-Wk-rmI" id="Wen-Q9-qeG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pGC-51-2sr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2223.1884057971015" y="906.69642857142856"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="SJh-MD-GbW">
+            <objects>
+                <tabBarController id="IqD-HR-LQH" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Jgq-GC-irf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" name="AccentColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="0.18039215689999999" green="0.59063631299999997" blue="0.57284957169999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </tabBar>
+                    <connections>
+                        <segue destination="nD4-1c-vxW" kind="relationship" relationship="viewControllers" id="xFK-5w-tjP"/>
+                        <segue destination="6Ry-pk-6xD" kind="relationship" relationship="viewControllers" id="Wgu-nd-mrv"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="yL7-rN-a3R"/>
+                        <segue destination="zfN-9m-Qf9" kind="relationship" relationship="viewControllers" id="mib-kW-R0t"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="etc-D0-kf7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1725" y="176"/>
+        </scene>
+        <!--Conjuntos-->
+        <scene sceneID="vNM-5u-4wd">
+            <objects>
+                <viewController id="zfN-9m-Qf9" customClass="ConjuntosView" customModule="appTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ngo-4T-ozF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Conjunto A: ⛴🛳🛥🚤⛵️" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Td2-jF-BV0">
+                                <rect key="frame" x="89" y="116" width="240" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="5bZ-RC-mTc"/>
+                                    <constraint firstAttribute="width" constant="240" id="Jjh-VF-Nhg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" keyboardType="webSearch"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q02-hk-N9z">
+                                <rect key="frame" x="89" y="169" width="240" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="qz8-Mq-WqI"/>
+                                    <constraint firstAttribute="height" constant="38" id="xcC-KK-zpd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="&gt; Set A">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonSetA:" destination="zfN-9m-Qf9" eventType="touchUpInside" id="wDg-oD-Iml"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Conjunto B: 🚛🚐🚑🚕🚗" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zY6-mm-6gd">
+                                <rect key="frame" x="89" y="242.5" width="239" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="BVE-Tx-i6J"/>
+                                    <constraint firstAttribute="width" constant="239" id="fif-Ld-aJW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" keyboardType="webSearch"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2PZ-91-fuc">
+                                <rect key="frame" x="84" y="640.5" width="243" height="150"/>
+                                <color key="backgroundColor" red="0.18039215689999999" green="0.59215686270000001" blue="0.57254901960000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="cX7-Gh-Xnt"/>
+                                    <constraint firstAttribute="width" constant="243" id="th2-WV-jvO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQB-ah-ZO3">
+                                <rect key="frame" x="89" y="301.5" width="242" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="242" id="BSv-ES-mz5"/>
+                                    <constraint firstAttribute="height" constant="38" id="IS0-fF-eSm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="&gt; Set B">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonSetB:" destination="zfN-9m-Qf9" eventType="touchUpInside" id="Opk-fp-IPb"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aprende conjuntos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2mc-Jy-lSP">
+                                <rect key="frame" x="137" y="67" width="144" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="HBC-ha-TZu"/>
+                                    <constraint firstAttribute="height" constant="21" id="QUO-0A-V9l"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="i4L-ZW-c5t">
+                                <rect key="frame" x="104.5" y="371.5" width="211" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="afe-ft-Asn"/>
+                                    <constraint firstAttribute="width" constant="211" id="bnb-RE-Lcb"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="A ∪ B"/>
+                                    <segment title="A ∩ B"/>
+                                    <segment title="A Δ B"/>
+                                    <segment title="A ∖ B"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentedOps1:" destination="zfN-9m-Qf9" eventType="valueChanged" id="qWb-2a-OAV"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="bnU-wL-8Xx">
+                                <rect key="frame" x="104.5" y="432.5" width="211" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="211" id="Uj8-6a-zDS"/>
+                                    <constraint firstAttribute="height" constant="31" id="bCz-Wi-Cis"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="A ⊆ B"/>
+                                    <segment title="A ⊃ B"/>
+                                    <segment title="A ∩ B = ϕ"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentedMember2:" destination="zfN-9m-Qf9" eventType="valueChanged" id="BJ0-Ua-3NV"/>
+                                </connections>
+                            </segmentedControl>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tPx-gE-vUf">
+                                <rect key="frame" x="84" y="488.5" width="243" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="243" id="5K1-hw-ta0"/>
+                                    <constraint firstAttribute="height" constant="128" id="LBf-Lh-foW"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8lH-zS-i4O"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Td2-jF-BV0" firstAttribute="leading" secondItem="8lH-zS-i4O" secondAttribute="leading" constant="89" id="25T-yO-3lq"/>
+                            <constraint firstItem="zY6-mm-6gd" firstAttribute="leading" secondItem="zQB-ah-ZO3" secondAttribute="leading" id="6w6-Dm-GM9"/>
+                            <constraint firstItem="2mc-Jy-lSP" firstAttribute="top" secondItem="8lH-zS-i4O" secondAttribute="top" constant="23" id="CfY-hs-CQh"/>
+                            <constraint firstItem="Q02-hk-N9z" firstAttribute="leading" secondItem="zY6-mm-6gd" secondAttribute="leading" id="E2A-Vt-9Bg"/>
+                            <constraint firstItem="zQB-ah-ZO3" firstAttribute="centerX" secondItem="i4L-ZW-c5t" secondAttribute="centerX" id="HqS-pc-P35"/>
+                            <constraint firstItem="Q02-hk-N9z" firstAttribute="top" secondItem="Td2-jF-BV0" secondAttribute="bottom" constant="17" id="TZ1-Vg-5El"/>
+                            <constraint firstItem="zQB-ah-ZO3" firstAttribute="top" secondItem="zY6-mm-6gd" secondAttribute="bottom" constant="23" id="cja-VZ-o3G"/>
+                            <constraint firstItem="Td2-jF-BV0" firstAttribute="leading" secondItem="Q02-hk-N9z" secondAttribute="leading" id="fNG-K0-NDd"/>
+                            <constraint firstItem="tPx-gE-vUf" firstAttribute="leading" secondItem="8lH-zS-i4O" secondAttribute="leading" constant="84" id="fl1-ed-9V6"/>
+                            <constraint firstItem="bnU-wL-8Xx" firstAttribute="centerY" secondItem="ngo-4T-ozF" secondAttribute="centerY" id="gZA-qV-493"/>
+                            <constraint firstItem="2PZ-91-fuc" firstAttribute="top" secondItem="tPx-gE-vUf" secondAttribute="bottom" constant="24" id="kBz-RH-rFk"/>
+                            <constraint firstItem="i4L-ZW-c5t" firstAttribute="leading" secondItem="bnU-wL-8Xx" secondAttribute="leading" id="lHn-7f-OPu"/>
+                            <constraint firstItem="Td2-jF-BV0" firstAttribute="top" secondItem="2mc-Jy-lSP" secondAttribute="bottom" constant="28" id="mHu-da-9gB"/>
+                            <constraint firstItem="bnU-wL-8Xx" firstAttribute="top" secondItem="i4L-ZW-c5t" secondAttribute="bottom" constant="30" id="t9A-VA-9A2"/>
+                            <constraint firstItem="tPx-gE-vUf" firstAttribute="top" secondItem="bnU-wL-8Xx" secondAttribute="bottom" constant="25" id="tbC-za-y45"/>
+                            <constraint firstItem="2mc-Jy-lSP" firstAttribute="centerX" secondItem="Td2-jF-BV0" secondAttribute="centerX" id="unf-6Q-Qbr"/>
+                            <constraint firstItem="i4L-ZW-c5t" firstAttribute="top" secondItem="zQB-ah-ZO3" secondAttribute="bottom" constant="32" id="xmM-J9-OA6"/>
+                            <constraint firstItem="tPx-gE-vUf" firstAttribute="leading" secondItem="2PZ-91-fuc" secondAttribute="leading" id="zMS-ds-YqG"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Conjuntos" image="circlebadge.2.fill" catalog="system" id="tF9-L0-Kj3"/>
+                    <connections>
+                        <outlet property="buttonSetA" destination="Q02-hk-N9z" id="yke-x3-NGm"/>
+                        <outlet property="buttonSetB" destination="zQB-ah-ZO3" id="uFc-vP-bRr"/>
+                        <outlet property="imageView" destination="tPx-gE-vUf" id="X5f-BO-uvU"/>
+                        <outlet property="labelResultado" destination="2PZ-91-fuc" id="9HH-R6-hdU"/>
+                        <outlet property="segmentedCOps1" destination="i4L-ZW-c5t" id="tI8-NM-y39"/>
+                        <outlet property="segmentedMembresia" destination="bnU-wL-8Xx" id="MDp-MI-6Gy"/>
+                        <outlet property="textConjuntoA" destination="Td2-jF-BV0" id="Cw2-f5-FND"/>
+                        <outlet property="textConjuntoB" destination="zY6-mm-6gd" id="0eG-Qw-2Kp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UV1-xW-pnx" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="115.84821428571428"/>
+        </scene>
+        <!--Graficos3D-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController id="BYZ-38-t0r" customClass="GameViewController" customModule="appTabBar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="SCNView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Graficos3D" image="pencil.tip" catalog="system" id="fu1-G1-9ip"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-314.49275362318843" y="906.69642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="1000" height="1000"/>
+        <image name="circlebadge.2.fill" catalog="system" width="128" height="91"/>
+        <image name="pencil" catalog="system" width="128" height="113"/>
+        <image name="pencil.tip" catalog="system" width="99" height="128"/>
+        <image name="scribble.variable" catalog="system" width="128" height="118"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
